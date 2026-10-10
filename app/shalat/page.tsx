@@ -1,0 +1,6 @@
+import { PageHeader } from "@/components/PageHeader";
+import { Card } from "@/components/Card";
+import { AdSlot } from "@/components/AdSlot";
+export default function Page(){
+  return <><PageHeader title="Jadwal Shalat" subtitle="Jadwal shalat harian, countdown, dan pengaturan lokasi."/><div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3"><a href="/shalat" className="glass rounded-3xl p-5 hover:border-emerald-500/30"><div className="font-bold">Subuh</div><p className="mt-2 text-sm text-zinc-400">05:00</p></a><a href="/shalat" className="glass rounded-3xl p-5 hover:border-emerald-500/30"><div className="font-bold">Dzuhur</div><p className="mt-2 text-sm text-zinc-400">12:00</p></a><a href="/shalat" className="glass rounded-3xl p-5 hover:border-emerald-500/30"><div className="font-bold">Ashar</div><p className="mt-2 text-sm text-zinc-400">15:15</p></a><a href="/shalat" className="glass rounded-3xl p-5 hover:border-emerald-500/30"><div className="font-bold">Maghrib</div><p className="mt-2 text-sm text-zinc-400">18:00</p></a><a href="/shalat" className="glass rounded-3xl p-5 hover:border-emerald-500/30"><div className="font-bold">Isya</div><p className="mt-2 text-sm text-zinc-400">19:10</p></a></div><AdSlot/></>;
+}

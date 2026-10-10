@@ -1,0 +1,1 @@
+export function PageHeader({title,subtitle}:{title:string;subtitle:string}){return <div className="mb-6"><div className="text-xs font-semibold uppercase tracking-[.25em] text-emerald-400">Nurul Globe</div><h1 className="mt-2 text-3xl font-black md:text-4xl">{title}</h1><p className="mt-2 max-w-2xl text-sm text-zinc-400">{subtitle}</p></div>}

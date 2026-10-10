@@ -1,0 +1,11 @@
+{
+  "name": "Nurul Globe",
+  "short_name": "Nurul Globe",
+  "description": "Aplikasi Islami modern",
+  "start_url": "/home",
+  "display": "standalone",
+  "background_color": "#06110c",
+  "theme_color": "#06110c",
+  "orientation": "portrait-primary",
+  "icons": []
+}

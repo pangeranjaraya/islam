@@ -1,0 +1,3 @@
+import { PageHeader } from "@/components/PageHeader"; import { Card } from "@/components/Card";
+const surahs=["Al-Fatihah","Al-Baqarah","Ali 'Imran","An-Nisa","Al-Ma'idah","Al-An'am","Al-A'raf","Al-Anfal","At-Taubah","Yunus","Hud","Yusuf"];
+export default function Page(){return <><PageHeader title="114 Surah" subtitle="Daftar surah dengan navigasi sederhana dan jelas."/><div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{surahs.map((s,i)=><a href={`/quran/read/${i+1}`} key={s} className="glass rounded-2xl p-4"><div className="text-xs text-emerald-400">Surah {i+1}</div><div className="mt-1 font-bold">{s}</div><div className="mt-2 text-xs text-zinc-500">Buka bacaan</div></a>)}</div></>;}

@@ -1,0 +1,3 @@
+ "use client";
+import { useEffect } from "react";
+export function AdSlot(){useEffect(()=>{const id=process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;if(!id)return;const s=document.createElement("script");s.async=true;s.src=`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${id}`;s.crossOrigin="anonymous";document.head.appendChild(s)},[]);return <div className="my-5 min-h-16 rounded-2xl border border-dashed border-emerald-900/40 bg-black/10 p-3 text-center text-[10px] text-zinc-600">Ad space — aktifkan dengan ID AdSense milik Anda di environment.</div>}
