@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nurul Globe — Full Offline/Web/PWA Starter
 
 Nurul Globe adalah aplikasi Islami modular dengan halaman terpisah, UI responsif, Firebase, PWA, dan konfigurasi Capacitor Android.
@@ -36,3 +37,6 @@ Masukkan `NEXT_PUBLIC_ADSENSE_CLIENT_ID` dan `NEXT_PUBLIC_ADSENSE_SLOT` dari aku
 
 ## Catatan
 Beberapa data eksternal memiliki fallback lokal agar UI tetap dapat dibuka saat API tidak tersedia. Firebase dipakai sebagai backend/auth ketika konfigurasi layanan tersebut diaktifkan.
+=======
+# islam
+>>>>>>> 079e56d6abee09c9d68ce58a2fc0d9a48b464041
